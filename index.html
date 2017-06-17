@@ -14,8 +14,8 @@
     <!-- Load Stylesheets: Custom, W3 CSS, Bootstrap-->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">-->
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
@@ -27,25 +27,53 @@
     <!-- Supplemental Javascript Libraries: jQuery, Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>-->
 
     <!--<script src="https://unpkg.com/vue"></script>-->
 </head>
 
 <body>
-    <div class="main-wrapper">
-        <div class="banner" id="splash-picture">
-            <img src="assets/maryam-marthas.JPG" align="middle" style="width:100%;">
+    <nav class="nav-bar">
+        <div class="nav-bar-item" id="nav-projects">
+            <h3><a href="#">projects</a></h3>
         </div>
+        <div class="nav-bar-item" id="nav-skills">
+            <h3><a href="#">skills</a></h3>
+        </div>
+        <div class="nav-bar-item" id="nav-edu-int">
+            <h3><a href="#">edu + internships</a></h3>
+        </div>
+        <div class="nav-bar-item" id="nav-logo">
+            <a href="#"><img src="assets/initials-transparent.png" width="100%" height="auto"></a>
+        </div>
+        <div class="nav-bar-item" id="nav-resume">
+            <h3><a href="#">resume</a></h3>
+        </div>
+        <div class="nav-bar-item" id="nav-about">
+            <h3><a href="#">about</a></h3>
+        </div>
+        <div class="nav-bar-item" id="nav-contact">
+            <h3><a href="#">contact</a></h3>
+        </div>
+        <div class="menu-icon" style="display: none">
+            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </div>
+    </nav>
+    <div class="banner" id="splash-picture">
+        <img src="assets/maryam-marthas.JPG" align="middle" style="width:100%;">
+    </div>
+    <div class="overlay">
+        <h1>Maryam Archie</h1>
+        <h3>Full Stack Web Developer | CS @ MIT 2018</h3>
     </div>
     <!--<div id="app">
         {{ message }}
     </div>-->
 </body>
 
-<!--<footer>
+<footer>
     <script src="index.js"></script>
-</footer>-->
+</footer>
 
 </html>
