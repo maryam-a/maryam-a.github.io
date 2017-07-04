@@ -14,8 +14,8 @@
     <!-- Load Stylesheets: Custom, W3 CSS, Bootstrap-->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
@@ -27,10 +27,8 @@
     <!-- Supplemental Javascript Libraries: jQuery, Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
         crossorigin="anonymous"></script>
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>-->
-
-    <!--<script src="https://unpkg.com/vue"></script>-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
 
     <!-- Google Analytics-->
     <!--<script>
@@ -48,42 +46,189 @@
 </head>
 
 <body>
+
     <nav class="nav-bar">
         <div class="nav-bar-item" id="nav-projects">
-            <h3><a href="#">projects</a></h3>
+            <h1><a href="#projects">projects</a></h1>
         </div>
         <div class="nav-bar-item" id="nav-skills">
-            <h3><a href="#">skills</a></h3>
+            <h1><a href="#skills">skills</a></h1>
         </div>
         <div class="nav-bar-item" id="nav-edu-int">
-            <h3><a href="#">edu + internships</a></h3>
+            <h1><a href="#edu-int">edu + internships</a></h1>
         </div>
         <div class="nav-bar-item" id="nav-logo">
-            <a href="#"><img src="assets/initials-transparent.png" width="100%" height="auto"></a>
+            <a href="/"><img src="assets/initials-transparent.png" alt="initials" width="100%" height="auto"></a>
         </div>
         <div class="nav-bar-item" id="nav-resume">
-            <h3><a href="#">resume</a></h3>
+            <h1><a href="#resume">resume</a></h1>
         </div>
         <div class="nav-bar-item" id="nav-about">
-            <h3><a href="#">about</a></h3>
+            <h1><a href="#about">about</a></h1>
         </div>
         <div class="nav-bar-item" id="nav-contact">
-            <h3><a href="#">contact</a></h3>
+            <h1><a href="#contact">contact</a></h1>
         </div>
         <div class="menu-icon" style="display: none">
             <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
         </div>
     </nav>
+
     <div class="banner" id="splash-picture">
-        <img src="assets/maryam-marthas.JPG" align="middle" style="width:100%;">
+        <img src="assets/maryam-marthas.JPG" alt="Maryam Archie" align="middle" style="width:100%;">
     </div>
+
     <div class="overlay">
         <h1>Maryam Archie</h1>
         <h3>Full Stack Web Developer | CS @ MIT 2018</h3>
     </div>
-    <!--<div id="app">
-        {{ message }}
-    </div>-->
+
+    <div class="main-section" id="projects">
+
+        <div class="section-header">
+            <h1>projects</h1>
+        </div>
+
+        <div class="container section-cards">
+            <div id="mit-projects">
+                <div class="row">
+                    <div class="col-md-4" id="esso">
+                        <figure>
+                            <img src="assets/glp2015.jpg" alt="hello" style="width:100%">
+                            <figcaption>
+                                <h1>Esso</h1>
+                                <p>Live lecturer feedback tool</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4" id="mnn">
+                        <figure>
+                            <img src="assets/glp2015.jpg" alt="hello" style="width:100%">
+                            <figcaption>
+                                <h1>Commonwealth Stats</h1>
+                                <p>Helping non-profits retrieve user-friendly info</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4" id="sweet-spots">
+                        <figure>
+                            <img src="assets/glp2015.jpg" alt="hello" style="width:100%">
+                            <figcaption>
+                                <h1>Sweet Spots</h1>
+                                <p>Map, filter and review points of interest</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div id="research">
+                <div class="row">
+                    <div class="col-md-4" id="esso">
+                        <figure>
+                            <img src="assets/glp2015.jpg" alt="hello" style="width:100%">
+                            <figcaption>
+                                <h1>Esso</h1>
+                                <p>Live lecturer feedback tool</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4" id="mnn">
+                        <figure>
+                            <img src="assets/glp2015.jpg" alt="hello" style="width:100%">
+                            <figcaption>
+                                <h1>Commonwealth Stats</h1>
+                                <p>Helping non-profits retrieve user-friendly info</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4" id="sweet-spots">
+                        <figure>
+                            <img src="assets/glp2015.jpg" alt="hello" style="width:100%">
+                            <figcaption>
+                                <h1>Sweet Spots</h1>
+                                <p>Map, filter and review points of interest</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+
+            <div id="hack-comp">
+                <div class="row">
+                    <div class="col-md-4" id="esso">
+                        <figure>
+                            <img src="assets/glp2015.jpg" alt="hello" style="width:100%">
+                            <figcaption>
+                                <h1>Esso</h1>
+                                <p>Live lecturer feedback tool</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4" id="mnn">
+                        <figure>
+                            <img src="assets/glp2015.jpg" alt="hello" style="width:100%">
+                            <figcaption>
+                                <h1>Commonwealth Stats</h1>
+                                <p>Helping non-profits retrieve user-friendly info</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4" id="sweet-spots">
+                        <figure>
+                            <img src="assets/glp2015.jpg" alt="hello" style="width:100%">
+                            <figcaption>
+                                <h1>Sweet Spots</h1>
+                                <p>Map, filter and review points of interest</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="main-section" id="skills">
+
+        <div class="section-header">
+            <h1>skills</h1>
+        </div>
+
+    </div>
+
+    <div class="main-section" id="edu-int">
+
+        <div class="section-header">
+            <h1>edu + internships</h1>
+        </div>
+
+    </div>
+
+    <div class="main-section" id="resume">
+
+        <div class="section-header">
+            <h1>resume</h1>
+        </div>
+
+    </div>
+
+    <div class="main-section" id="about">
+
+        <div class="section-header">
+            <h1>about</h1>
+        </div>
+
+    </div>
+
+    <div class="main-section" id="contact">
+
+        <div class="section-header">
+            <h1>contact</h1>
+        </div>
+
+    </div>
+
 </body>
 
 <footer>

@@ -17,13 +17,17 @@
     width: 14.3%;
 }
 
+.nav-bar-item h1 {
+    font-size: 35px;
+}
+
 .nav-bar a {
     color: #ffffff;
     text-decoration: none;
 }
 
 .nav-bar a:hover {
-    color: #446CB3;
+    color: #F2784B;
     text-decoration: none;
 }
 
@@ -35,16 +39,64 @@
     top: 0px;
 	min-height: 100%;
 	min-width: 100%;
-    position: absolute;
 }
 
 .overlay {
-    position: relative;
+    position: absolute;
     margin: 0 auto;
 	text-align: center;
     color: white;
+    width: 100%;
 }
 
 .overlay h1 {
     font-size: 50px;
+}
+
+.main-section {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+.main-section h3 {
+    font-size: 20px;
+}
+
+.section-header {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #F2784B;
+    padding: 40px 0px;
+    color: white;
+    margin-bottom:20px;
+}
+
+.row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*https://css-tricks.com/slide-in-image-captions/*/
+
+figure {
+  display: block;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 0 20px 20px 0;
+}
+
+figcaption {
+  position: absolute;
+  background: black;
+  background: rgba(0,0,0,0.50);
+  color: white;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+  bottom: 0px;
+  width: 100%;
+  height: 30%;
+  text-align: center;
 }
